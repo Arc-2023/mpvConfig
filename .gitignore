@@ -3,3 +3,8 @@ mpv.com
 mpv.pdb
 *.dll
 **/_cache
+**/shaders
+**/shaders_cache
+mpv/scripts/uosc
+mpv/script-opts
+
