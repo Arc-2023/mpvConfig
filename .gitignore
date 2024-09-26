@@ -1,0 +1,5 @@
+**/*.exe
+mpv.com
+mpv.pdb
+*.dll
+**/_cache
