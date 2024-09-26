@@ -15,9 +15,9 @@ local function get_scale()
     local height = mp.get_property_native("height")
     print(string.format("width: %s, height: %s", width, height))
     local ratio = get_max_width() / math.max(width, height)
-    if ratio > 0.99 and ratio < 1.5 then
+    if ratio >= 0.8 and ratio < 1.5 then
         return 1.5
-    elseif ratio < 1 then
+    elseif ratio < 0.8 then
         -- 不启用
         return 1
     else
