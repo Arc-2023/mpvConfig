@@ -1,0 +1,14 @@
+**/*.exe
+mpv.com
+mpv.pdb
+*.dll
+**/_cache
+mpv/bak
+mpv/fonts
+mpv/scripts/uosc
+mpv/script-opts/uosc.conf
+mpv\shaders
+mpv\shaders_cache
+mpv\watch_later
+bak
+
